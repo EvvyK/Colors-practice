@@ -65,6 +65,7 @@ footer {
 
   #column-1 {
     background-color: blueviolet;
+    
   }
 
   #column-2 {
@@ -73,12 +74,16 @@ footer {
 
   #column-3 {
     background-color: hotpink;
+    left: 25%;
+    position: relative;
   }
 
   footer {
     background-color: mediumspringgreen;
   }
-  
+  .col-3 {
+    width: 50%;
+  }
 }
 
 
@@ -98,6 +103,11 @@ footer {
 
   #column-3 {
     background-color: darkorange;
+    left: 0;
+  }
+
+  .col-3 {
+    width: 33.33%;
   }
 
   footer {
